@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Create and go to the TP directory 
+# Create and go to the TP directory     
 mkdir /data/courses/rnaseq/toxoplasma_de/tagaoglu/genome 
 cd /data/courses/rnaseq/toxoplasma_de/tagaoglu/genome
 
