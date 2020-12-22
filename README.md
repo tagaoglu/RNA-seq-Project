@@ -2,4 +2,5 @@
 
 Below you can find detailed descriptions of the scripts in this repository:
 
+## quality_control.sh
 
