@@ -25,5 +25,5 @@ cd /data/courses/rnaseq/toxoplasma_de/tagaoglu/2_map_reads
 REF_GENOME=/data/courses/rnaseq/toxoplasma_de/tagaoglu/genome/Mus_musculus.GRCm38.dna.primary_assembly.fa
 
 
-# Index REF for hisat2
+# Index REF for hisat2 
 hisat2-build -p 1 ${REF_GENOME} hisat2_index/Mus_musculus.GRCm38
