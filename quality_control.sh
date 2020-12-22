@@ -1,3 +1,5 @@
+Script name: quality_control.sh
+
 #!/bin/bash         
 
 #SBATCH --job-name=quality_control       
