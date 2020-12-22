@@ -1,4 +1,4 @@
-Script Name: samtools_sort.sh
+# Script Name: samtools_sort.sh
 
 # Since this job was split between our group, this script was written just for 4 samples 
 # and sbatch command should be run like this: sbatch hisat2_mapping.sh SRR7821951 SRR7821952 SRR7821953 SRR7821969
