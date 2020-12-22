@@ -1,10 +1,10 @@
 #!/bin/bash         
 
-#SBATCH --job-name=fastqc_sample1         
-#SBATCH —output=/data/courses/rnaseq/toxoplasma_de/tagaoglu/messages_output/output_fastqc_%j.o       
-#SBATCH —error=/data/courses/rnaseq/toxoplasma_de/tagaoglu/messages_error/error_fastqc_%j.e        
+#SBATCH --job-name=quality_control       
+#SBATCH --output=/data/courses/rnaseq/toxoplasma_de/tagaoglu/messages_output/output_fastqc_%j.o       
+#SBATCH --error=/data/courses/rnaseq/toxoplasma_de/tagaoglu/messages_error/error_fastqc_%j.e        
 #SBATCH --ntasks=1      
-#SBATCH —cpus-per-task=1       
+#SBATCH --cpus-per-task=1       
 #SBATCH --mem-per-cpu=1000        
 #SBATCH --time=02:00:00       
 #SBATCH --mail-user=tugba.agaoglu@students.unibe.ch         
