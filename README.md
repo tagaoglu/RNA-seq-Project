@@ -28,3 +28,8 @@ to produce a table of counts containing the number of reads per gene in each sam
          
 * **reformat_featureCounts.sh**            
 to reformat the table from FeatureCounts to correspond to the format expected by DESeq2
+
+* R codes ...
+
+* **sessionInfo()** reports the version numbers of R and all the packages used in this project:
+...
