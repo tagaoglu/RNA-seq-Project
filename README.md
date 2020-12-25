@@ -31,3 +31,6 @@ to reformat the table from FeatureCounts to correspond to the format expected by
 
 * **DEAnalysis.R**           
 R codes for Exploratory data analysis, Differential expression analysis and Overrepresentation analysis
+
+* **sessionInfo()**         
+Session Info in R
