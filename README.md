@@ -29,5 +29,5 @@ to produce a table of counts containing the number of reads per gene in each sam
 * **reformat_featureCounts.sh**            
 to reformat the table from FeatureCounts to correspond to the format expected by DESeq2
 
-* **DEAnalysis.R**
+* **DEAnalysis.R**           
 R codes for Exploratory data analysis, Differential expression analysis and Overrepresentation analysis
