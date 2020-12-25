@@ -31,22 +31,22 @@ to reformat the table from FeatureCounts to correspond to the format expected by
 
 * R codes ...
 
-* **sessionInfo()** (reports the version numbers of R and all the packages used in this project)
-R version 4.0.3 (2020-10-10)
-Platform: x86_64-apple-darwin17.0 (64-bit)
-Running under: macOS Catalina 10.15.7
-
-Matrix products: default
+* **sessionInfo()** (the version numbers of R and all the packages used in this project)         
+R version 4.0.3 (2020-10-10)        
+Platform: x86_64-apple-darwin17.0 (64-bit)      
+Running under: macOS Catalina 10.15.7      
+      
+Matrix products: default       
 BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
 LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
 
-locale:
-[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+locale:      
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8    
 
-attached base packages:
+attached base packages:       
 [1] parallel  stats4    stats     graphics  grDevices utils     datasets  methods   base     
 
-other attached packages:
+other attached packages:      
  [1] dplyr_1.0.2                 ggrepel_0.9.0               ggplot2_3.3.2              
  [4] GOSemSim_2.16.1             ggupset_0.3.0               ggnewscale_0.4.4           
  [7] enrichplot_1.10.1           org.Mm.eg.db_3.12.0         AnnotationDbi_1.52.0       
@@ -55,7 +55,7 @@ other attached packages:
 [16] GenomicRanges_1.42.0        GenomeInfoDb_1.26.2         IRanges_2.24.1             
 [19] S4Vectors_0.28.1            BiocGenerics_0.36.0        
 
-loaded via a namespace (and not attached):
+loaded via a namespace (and not attached):       
  [1] bitops_1.0-6           bit64_4.0.5            RColorBrewer_1.1-2     httr_1.4.2            
  [5] tools_4.0.3            R6_2.5.0               DBI_1.1.0              colorspace_2.0-0      
  [9] withr_2.3.0            tidyselect_1.1.0       gridExtra_2.3          bit_4.0.4             
