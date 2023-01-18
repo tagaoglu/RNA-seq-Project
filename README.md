@@ -1,6 +1,4 @@
-# This repository has been designed for RNA-seq project.
-
-Pipeline to detect differentially expressed genes from bulk RNA-seq data
+# Pipeline to detect differentially expressed genes from bulk RNA-seq data
 
 Below you can find detailed descriptions of the scripts in this repository:
 
