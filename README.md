@@ -2,35 +2,40 @@
 
 Below you can find detailed descriptions of the scripts in this repository:
 
-* **quality_control.sh**              
-to check the quality of the data
+* **Check the quality of the data**              
+quality_control.sh
          
-* **get_reference.sh**           
-to download the reference genome sequence and associated annotation
+* **Download the reference genome sequence and associated annotation**           
+get_reference.sh
            
-* **hisat2_index.sh**            
-to produce all required index files for Hisat2
+* **Produce all required index files for Hisat2**            
+hisat2_index.sh
           
-* **hisat2_mapping.sh**           
-to map the reads to the reference genome
+* **Map the reads to the reference genome**           
+hisat2_mapping.sh
            
-* **samtools_view.sh**          
-to convert the resulting sam files to bam format
+* **Convert the resulting sam files to bam format**          
+samtools_view.sh
            
-* **samtools_sort.sh**         
-to sort the bam files by genomic coordinates
+* **Sort the bam files by genomic coordinates**         
+samtools_sort.sh
            
-* **samtools_index.sh**         
-to index the coordinate sorted bam files
+* **Index the coordinate sorted bam files**         
+samtools_index.sh
           
-* **featureCounts.sh**        
-to produce a table of counts containing the number of reads per gene in each sample
+* **Produce a table of counts containing the number of reads per gene in each sample**        
+featureCounts.sh
          
-* **reformat_featureCounts.sh**            
-to reformat the table from FeatureCounts to correspond to the format expected by DESeq2
+* **Reformat the table from FeatureCounts to correspond to the format expected by DESeq2**            
+reformat_featureCounts.sh
 
-* **DEAnalysis.R**           
-R codes for Exploratory data analysis, Differential expression analysis and Overrepresentation analysis
+* **Exploratory data analysis: Differential expression analysis and Overrepresentation analysis**           
+DEAnalysis.R
 
-* **sessionInfo()**         
-Session Info in R
+* **Session Info in R**         
+sessionInfo()
+
+## Summary of the project
+
+RNA-seq (bulk): Perform a “standard” differential gene expression workflow in a model organism. 
+This involves mapping of reads to the reference genome with a splice-aware aligner, counting reads per gene, performing tests for differential expression and some visualisation. 
