@@ -1,7 +1,7 @@
 # Go to the directory where the data is stored
 setwd("~/Desktop")
 
-#Added new comment to test
+#second branch
 
 # Install packages
 if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -43,7 +43,7 @@ library(dplyr)
 ###### EXPLORATORY DATA ANALYSIS
 
 # Read adjusted file resulting from featureCounts
-counts <- read.table("counts.txt", sep="\t", row.names = "Geneid", header = TRUE)
+counts <- read.table("counts.txt", sep = "\t", row.names = "Geneid", header = TRUE)
 
 # Specify experimental group for each sample
 condition <- factor(c(rep("Lung_WT_Case", 5), rep("Lung_WT_Control", 3), rep("Blood_WT_Case", 5), rep("Blood_WT_Control", 3)))
